@@ -1,0 +1,6 @@
+* {
+    background-color:#000;
+    color: var(--text-primary);
+    font-family: Rubik,sans-serif;
+    box-sizing: content-box;
+}
