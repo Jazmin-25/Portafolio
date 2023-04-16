@@ -37,6 +37,11 @@
 .portada .fotoimagen{
     text-align: center;
 }
+.imagen{
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+}
 .portada .minombre{
     text-align: center;
     justify-content: center;
