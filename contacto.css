@@ -32,6 +32,11 @@
     text-align: center;
     justify-content: center;
 }
+.alert{
+    background-color: yellow;
+    color: #fff;
+    text-align: left;
+}
 
 
 .container .footer{
