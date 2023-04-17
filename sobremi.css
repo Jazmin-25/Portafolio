@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .nav{
@@ -15,11 +16,68 @@
     justify-content: right;
 }
 
-h1{
-    color: blue;
-    font-size: 14px; 
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-
-
+.Sobremi{
+    width: 90%;
+    max-width: 10000px;
+    margin: 20px auto;
+    display: grid;
+    grid: grap 20px;
+    grid-template-columns: repeat(3,lfr);
+    grid-template-rows: repeat(4, auto);
 }
+.Sobremi >div,
+.Sobremi .titutlo,
+.Sobremi .descripcionyo,
+.Sobremi .habilidadesblandas,
+.Sobremi .blandas,
+.Sobremi .habilidadestecnicas,
+.Sobremi .tecnicas,
+.Sobremi .footer{
+    background-color:black;
+    color:#fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.Sobremi .titutlo{
+    text-align: center;
+    justify-content: center;
+}
+.Sobremi .descripcionyo{
+    text-align: center;
+    justify-content: center;
+}
+.Sobremi .habilidadesblandas{
+    text-align: center;
+    justify-content: center;
+}
+.Sobremi .habilidadestecnicas{
+    text-align: center;
+    justify-content: center;
+}
+
+.Sobremi .blandas{
+    text-align: left;
+    justify-content: center;
+}
+.Sobremi .tecnicas{
+    text-align: left;
+    justify-content: center;
+}
+
+.Sobremi .footer1{
+    background-color:black;
+    color: #fff;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+}
+.footer .github{
+    width:60px; 
+    height:60px;
+}
+.footer .linkelin{
+    width:40px; 
+    height:40px;
+}/*falta agregar el tamaño correcto a linkelin.
